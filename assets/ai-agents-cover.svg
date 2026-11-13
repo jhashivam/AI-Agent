@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="780" viewBox="0 0 1920 780" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="50" y1="0" x2="1860" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050D1D"/>
+      <stop offset=".58" stop-color="#08152B"/>
+      <stop offset="1" stop-color="#10123A"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="105" y1="200" x2="1030" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24E7F2"/>
+      <stop offset=".52" stop-color="#5D9CFF"/>
+      <stop offset="1" stop-color="#C86BFF"/>
+    </linearGradient>
+    <linearGradient id="title" x1="110" y1="330" x2="810" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29E6E9"/>
+      <stop offset=".55" stop-color="#72A4FF"/>
+      <stop offset="1" stop-color="#D77AFF"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="matrix(0 255 -255 0 1510 348)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#164E76" stop-opacity=".85"/>
+      <stop offset=".7" stop-color="#17205C" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#10123A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="#54B9F2" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="softGlow" x="1130" y="0" width="790" height="730" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <filter id="smallGlow" x="1300" y="140" width="430" height="430" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="780" rx="30" fill="url(#bg)"/>
+  <rect width="1920" height="780" rx="30" fill="url(#grid)"/>
+  <ellipse cx="1512" cy="354" rx="330" ry="300" fill="#285CFF" fill-opacity=".22" filter="url(#softGlow)"/>
+  <circle cx="1510" cy="350" r="278" fill="url(#core)"/>
+
+  <g stroke="url(#neon)" stroke-linecap="round" opacity=".8">
+    <path d="M0 75H50L92 33H180" stroke-width="2"/>
+    <path d="M0 105H63L112 56H210" stroke-width="2"/>
+    <path d="M1920 646H1855L1808 693H1722" stroke-width="2"/>
+    <path d="M1920 677H1870L1821 726H1750" stroke-width="2"/>
+  </g>
+  <g fill="#49DDF5">
+    <circle cx="180" cy="33" r="4"/><circle cx="210" cy="56" r="4"/>
+    <circle cx="1722" cy="693" r="4"/><circle cx="1750" cy="726" r="4"/>
+  </g>
+
+  <g opacity=".88" stroke="url(#neon)" stroke-width="1.5">
+    <ellipse cx="1510" cy="350" rx="235" ry="92" transform="rotate(-29 1510 350)"/>
+    <ellipse cx="1510" cy="350" rx="235" ry="92" transform="rotate(29 1510 350)"/>
+    <ellipse cx="1510" cy="350" rx="116" ry="235"/>
+    <path d="M1282 350H1738M1300 270C1420 310 1600 310 1720 270M1300 430C1420 390 1600 390 1720 430"/>
+  </g>
+  <g fill="#A7F6FF">
+    <circle cx="1330" cy="180" r="4"/><circle cx="1450" cy="118" r="4"/>
+    <circle cx="1617" cy="142" r="4"/><circle cx="1725" cy="238" r="4"/>
+    <circle cx="1710" cy="465" r="4"/><circle cx="1560" cy="579" r="4"/>
+    <circle cx="1372" cy="530" r="4"/><circle cx="1294" cy="360" r="4"/>
+  </g>
+
+  <g stroke="url(#neon)" stroke-width="3" opacity=".85">
+    <path d="M1510 350 1368 224M1510 350 1653 222M1510 350 1710 365M1510 350 1642 493M1510 350 1370 490M1510 350 1308 368"/>
+    <path d="M1368 224 1330 180M1653 222 1725 238M1710 365 1710 465M1642 493 1560 579M1370 490 1372 530M1308 368 1294 360"/>
+  </g>
+  <circle cx="1510" cy="350" r="86" fill="#25D6EE" fill-opacity=".48" filter="url(#smallGlow)"/>
+  <rect x="1438" y="278" width="144" height="144" rx="36" fill="#101D48" stroke="url(#neon)" stroke-width="4"/>
+  <rect x="1450" y="290" width="120" height="120" rx="28" fill="#101B3C" stroke="#78EFFF" stroke-opacity=".3"/>
+  <g stroke="#C9F7FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M1475 349C1475 333 1488 321 1504 321H1517C1533 321 1546 333 1546 349V358C1546 374 1533 386 1517 386H1504C1488 386 1475 374 1475 358V349Z"/>
+    <path d="M1509 309V321M1491 387V395M1530 387V395"/>
+  </g>
+  <g fill="#42E8F0">
+    <circle cx="1496" cy="350" r="4"/><circle cx="1524" cy="350" r="4"/>
+  </g>
+
+  <g fill="#0C1837" stroke="url(#neon)" stroke-width="2.5">
+    <rect x="1324" y="183" width="88" height="82" rx="23"/>
+    <rect x="1609" y="181" width="88" height="82" rx="23"/>
+    <rect x="1667" y="326" width="88" height="82" rx="23"/>
+    <rect x="1598" y="454" width="88" height="82" rx="23"/>
+    <rect x="1326" y="449" width="88" height="82" rx="23"/>
+    <rect x="1265" y="329" width="88" height="82" rx="23"/>
+  </g>
+  <g stroke="#C5EFFF" stroke-width="3.5" stroke-linecap="round">
+    <path d="M1349 221C1349 212 1356 205 1368 205S1387 212 1387 221V231H1349V221ZM1344 238H1392M1368 231V244"/>
+    <path d="M1634 220C1634 211 1641 204 1653 204S1672 211 1672 220V230H1634V220ZM1629 237H1677M1653 230V243"/>
+    <path d="M1692 365C1692 356 1699 349 1711 349S1730 356 1730 365V375H1692V365ZM1687 382H1735M1711 375V388"/>
+    <path d="M1623 493C1623 484 1630 477 1642 477S1661 484 1661 493V503H1623V493ZM1618 510H1666M1642 503V516"/>
+    <path d="M1351 488C1351 479 1358 472 1370 472S1389 479 1389 488V498H1351V488ZM1346 505H1394M1370 498V511"/>
+    <path d="M1290 368C1290 359 1297 352 1309 352S1328 359 1328 368V378H1290V368ZM1285 385H1333M1309 378V391"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="112" y="132" fill="#68E9F2" font-size="17" font-weight="700" letter-spacing="5">AI SYSTEMS / LEARNING IN PUBLIC</text>
+    <rect x="110" y="164" width="4" height="228" rx="2" fill="url(#neon)"/>
+    <text x="142" y="261" fill="#F7F9FF" font-size="72" font-weight="700" letter-spacing="-2.5">Building Production-Ready</text>
+    <text x="142" y="355" fill="url(#title)" font-size="92" font-weight="800" letter-spacing="-3">AI Agents</text>
+    <text x="142" y="433" fill="#C5D2F0" font-size="25" font-weight="500">From model calls to coordinated, tool-using systems</text>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600">
+    <rect x="142" y="481" width="784" height="55" rx="18" fill="#132443" fill-opacity=".9" stroke="#5477B5" stroke-opacity=".35"/>
+    <circle cx="170" cy="508" r="5" fill="#32E5E9"/>
+    <text x="188" y="515" fill="#E3ECFF">RAG</text>
+    <circle cx="278" cy="508" r="5" fill="#32E5E9"/>
+    <text x="296" y="515" fill="#E3ECFF">MCP</text>
+    <circle cx="383" cy="508" r="5" fill="#32E5E9"/>
+    <text x="401" y="515" fill="#E3ECFF">Memory</text>
+    <circle cx="526" cy="508" r="5" fill="#32E5E9"/>
+    <text x="544" y="515" fill="#E3ECFF">Planning</text>
+    <circle cx="686" cy="508" r="5" fill="#32E5E9"/>
+    <text x="704" y="515" fill="#E3ECFF">Multi-Agent Systems</text>
+    <text x="142" y="588" fill="#9EAFD3" font-size="16" letter-spacing="1.5">LANGGRAPH</text>
+    <circle cx="276" cy="582" r="3" fill="#8A77FF"/>
+    <text x="296" y="588" fill="#9EAFD3" font-size="16" letter-spacing="1.5">CREWAI</text>
+    <circle cx="393" cy="582" r="3" fill="#8A77FF"/>
+    <text x="413" y="588" fill="#9EAFD3" font-size="16" letter-spacing="1.5">LANGCHAIN</text>
+  </g>
+
+  <g opacity=".28" stroke="url(#neon)" stroke-width="1">
+    <path d="M0 650C210 573 321 753 542 670S887 603 1030 694 1252 763 1400 671 1714 589 1920 662"/>
+    <path d="M0 671C210 594 321 774 542 691S887 624 1030 715 1252 784 1400 692 1714 610 1920 683"/>
+    <path d="M0 692C210 615 321 795 542 712S887 645 1030 736 1252 805 1400 713 1714 631 1920 704"/>
+    <path d="M0 713C210 636 321 816 542 733S887 666 1030 757 1252 826 1400 734 1714 652 1920 725"/>
+  </g>
+  <path d="M112 675H1808" stroke="#8495C2" stroke-opacity=".25"/>
+  <text x="112" y="724" fill="#E5ECFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" font-weight="600">Shivam Jha</text>
+  <text x="1808" y="724" text-anchor="end" fill="#8799C2" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3">A HANDS-ON AI ENGINEERING JOURNEY</text>
+</svg>
